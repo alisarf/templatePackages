@@ -1,0 +1,156 @@
+#navigator{
+    background-color: rgb(122, 115, 115);
+    color:white;
+    position: fixed;
+    padding: 1rem;
+}
+
+
+#navLinks li{
+    list-style-type:none;
+    display: inline;
+    padding:0 1rem 0 0;
+    margin: .5rem 0;
+
+}
+#navLinks li:hover{
+    color:cadetblue;
+    cursor: pointer;
+}
+#navLinks ul{
+    margin:.5rem 0;
+    padding:0;
+    text-align: right;
+}
+
+
+#navSocial li{
+    list-style-type:none;
+    display: inline;
+    padding:0 .2rem;
+    margin: 30px 0;
+}
+#navSocial li:hover{
+    color:cadetblue;
+    cursor: pointer;
+}
+#navSocial ul {
+    margin:.4rem 0;
+    padding:0;
+    text-align: right;
+}
+
+#navSocial img{
+    width:2rem;
+    height:2rem;
+}
+
+
+
+
+
+
+#footer {
+    background-color: rgb(122, 115, 115);
+    color:white;
+    position: relative;
+    height: 100%;
+    padding:2rem 8rem;  /*modify the entire div within the container*/
+}
+#footerTitle {
+    height: 100%;
+    border-left: 6px solid cadetblue;
+}
+#footerTitle p{ /*to condense the text*/
+    margin: 0;
+}
+#footerLinks {
+    margin:4rem 0 0 0;  /*modify the entire div within the container*/
+    border-left: 6px solid cadetblue;
+}
+#footerLinks li{
+    list-style-type:none;
+    display: block;
+    margin: .5rem 0;
+
+}
+#footerLinks li:hover{
+    color:cadetblue;
+    cursor: pointer;
+}
+#footerLinks ul{
+    margin:.5rem 0;
+    padding:0;
+
+}
+
+#footerSocial {
+    margin:4rem 0 0 0;  /*modify the entire div within the container*/
+    border-left: 6px solid cadetblue;
+}
+
+#footerSocial li{
+    list-style-type:none;
+    display: inline;
+    padding:0 .3rem;
+    margin: 0;
+}
+#footerSocial li:hover{
+    color:cadetblue;
+    cursor: pointer;
+}
+#footerSocial ul {
+    margin: 0;
+    padding:0;
+    text-align: right;
+    position: absolute;
+}
+
+#footerSocial img{
+    width:2rem;
+    height:2rem;
+}
+#copyright{
+    padding-top:4rem;
+
+}
+#subscribe {
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    opacity: .7;
+    background-color: rgb(0, 163, 128);
+    color:black;
+}
+#subscribe:hover {
+    opacity: 1.0;
+}
+
+
+/*Alter the telephone and email decor*/
+a[href^="mailto:"] {
+    color: black;
+    text-decoration: none;
+    margin-right: 0.8em;
+    }
+
+a[href^="tel:"] {
+    color: black;
+    text-decoration: none;
+    margin-right: 0.8em;
+    }
+a[href^="mailto:"]:hover{
+    color: orange;
+    }
+
+a[href^="tel:"]:hover {
+    color: orange;
+    }
+
+
+/*used to make a scrolling page demo*/
+#banner2 {
+    height: 2000px;
+}
+

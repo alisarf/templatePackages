@@ -1,0 +1,75 @@
+#overlayContent {
+    /*could list the background color here too!*/
+    height: auto;
+    width: 100%;
+    position:relative;
+    background-color:rgb(197, 87, 73);
+}
+#overlayText {
+    color: white;
+    z-index:3;
+    opacity: 1;
+    height: 30rem;
+    width: auto;
+    padding: 5rem 0 5rem 5rem; 
+}
+
+#overlayText h1 {
+    font-size: 400%;
+    text-shadow: 3px 3px rgb(70, 113, 114);
+}
+#overlayText p {
+    font-size: 150%;
+    color:black;
+}
+#overlayImage {
+    background-image: url(../images/food.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    right:0;
+    position: absolute;
+    height: 30rem;
+
+}
+
+
+
+
+/* BUTTON QUOTE BANNER CSS--used to show flow in this example*/
+/* Only use below if you need to make a button, otherwise do not copy/paste */
+#banner2{
+    background-image: url(../images/cheers.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+
+}
+#bannerText2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 33%;
+    text-align: center;
+    position: relative;
+}
+#bannerText2 h1{
+    font-size: 4rem;
+}
+#bannerText2 p{
+    font-size: 1.5rem;
+}
+.button {
+    text-decoration: none;
+    background-color:rgb(223, 169, 223);
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    margin-top:1rem; /*may cause problems later!!!!*/
+    padding: 0.5rem;
+    border:none;
+    opacity: 0.8;
+    transition: 0.3s; /*controls fade in speed*/
+}
+.button:hover {
+    opacity: 1;  /* Fade in */
+}

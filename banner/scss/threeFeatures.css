@@ -1,0 +1,74 @@
+#threeFeaturesContainer {
+    background-color: thistle;
+    height: auto;
+    width: 100%;
+}
+.threeFeaturesText {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 25%;
+    position: relative;
+    text-align: center;
+    padding: 3rem 1rem;
+
+}
+.threeFeaturesText img {
+    height: auto;
+    width: 80%; /*relative to the div they reside in*/
+}
+.threeFeaturesText h1{
+    font-size: 4rem;
+}
+.threeFeaturesText h2{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.threeFeaturesText p{
+    font-size: .8rem;
+    padding: 0 1rem 2rem 1rem;
+}
+
+
+
+
+
+
+
+
+/* BUTTON QUOTE BANNER CSS--used to show flow in this example*/
+/* Only use below if you need to make a button, otherwise do not copy/paste */
+#banner2{
+    background-image: url(../images/cheers.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+
+}
+#bannerText2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 33%;
+    text-align: center;
+    position: relative;
+}
+#bannerText2 h1{
+    font-size: 4rem;
+}
+#bannerText2 p{
+    font-size: 1.5rem;
+}
+.button {
+    text-decoration: none;
+    background-color:rgb(255, 219, 255);
+    cursor: pointer;
+    color:rgb(145, 127, 145);
+    margin-top:1rem; /*may cause problems later!!!!*/
+    padding: 0.5rem;
+    border:none;
+    opacity: 0.8;
+    transition: 0.3s; /*controls fade in speed*/
+}
+.button:hover {
+    opacity: 1;  /* Fade in */
+}

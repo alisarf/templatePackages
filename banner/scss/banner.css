@@ -1,0 +1,62 @@
+#banner1{
+    background-image: url(../images/cheers.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+    /*position:absolute; allows for height percentage*/
+}
+#bannerText1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 25%;
+    text-align: center;
+    position: relative;
+}
+#bannerText1 h1{
+    font-size: 4rem;
+}
+#bannerText1 p{
+    font-size: 1.5rem;
+}
+
+
+
+
+/* BUTTON QUOTE BANNER CSS*/
+/* Only use below if you need to make a button, otherwise do not copy/paste */
+#banner2{
+    background-image: url(../images/cheers.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+
+}
+#bannerText2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 33%;
+    text-align: center;
+    position: relative;
+}
+#bannerText2 h1{
+    font-size: 4rem;
+}
+#bannerText2 p{
+    font-size: 1.5rem;
+}
+.button {
+    text-decoration: none;
+    background-color:rgb(255, 219, 255);
+    cursor: pointer;
+    color:rgb(145, 127, 145);
+    margin-top:1rem; /*may cause problems later!!!!*/
+    padding: 0.5rem;
+    border:none;
+    opacity: 0.8;
+    transition: 0.3s; /*controls fade in speed*/
+}
+.button:hover {
+    opacity: 1;  /* Fade in */
+}
